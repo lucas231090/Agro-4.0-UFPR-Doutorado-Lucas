@@ -26,15 +26,23 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 Caso queira colocar o Farm UFPR 4.0 em uma hospedagem na internet basta seguir a documentação do provedor contratado, pois esse projeto está pronto para isso.
 OBS: Os arquivos são totalmente editáveis 😁
 
-Consulte **[Agradecimentos](#-agradecimentos)**para saber como implantar o projeto.
-
 ### 📋 Pré-requisitos
-
-De que coisas você precisa para instalar o software e como instalá-lo?
+Antes de começar verifique se você possui todos os pré requisitos para rodar a aplicação.
 
 ```
-Dar exemplos
+Tenha instalado na máquina em que o projeto irá rodar:
+
+-> NodeJS (obrigatório)
+-> Yarn (não obrigatório)
+-> ReactJS (Obrigatório)
+-> React Native (Obrigatório)
+-> Expo (Obrigatório)
+-> Insomnia (recomendável)
+
 ```
+
+O manual de instalação encontra-se nesse repositório, mas todos os softwares citados acima podem ser facilmente instalados seguindo tutoriais da internet. 👨‍💻
+
 
 ### 🔧 Instalação
 
