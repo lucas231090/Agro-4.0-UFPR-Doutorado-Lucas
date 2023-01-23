@@ -90,7 +90,7 @@ A aplicação é leve e exige pouco hardware, caso você tenha algum computador 
 * [React Native](https://reactnative.dev/) - Biblioteca JS para front-end mobile
 * [ArduinoIDE](https://www.arduino.cc/) - IDE do desenvolvimento para microcontroladores
 * [MongoDB](https://www.mongodb.com/) - Banco de dados No-SQL
-* [Rstudio] (https://posit.co/downloads/) - IDE de desenvolvimento da programação utilizando Línguagem R
+* [Rstudio](https://posit.co/downloads/) - IDE de desenvolvimento da programação utilizando Línguagem R
 * [Shiny](https://shiny.rstudio.com/tutorial/) - Biblioteca para Línguagem R de visualização dos dados
 
 ## 📌 Versão
