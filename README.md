@@ -119,7 +119,7 @@ O projeto é público, mas está sob minha licença, então fique a vontade para
 ## 🙌 Agradecimentos
 
 * Primeiramente a Deus, que é o princípio e o fim de todas as coisas;
-* Ao meu querido amigo e professor Egon W. Wildauer;
+* Ao meu querido amigo e professor Egon W. Wildauer com suas orientações e parcerias;
 * A Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) que financiou e viabilizou a pesquisa com a bolsa DS de nível Doutorado;
 * A todos os colegas que estiveram comigo nesse trajeto, mesmo que sendo só para tomar um café ☕.
 
