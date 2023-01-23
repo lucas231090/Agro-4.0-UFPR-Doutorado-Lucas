@@ -108,7 +108,7 @@ Para parcerias acadêmicas e de negócios entre em contato com os autores 👇
 
 ## ✒️ Quer colaborar com o projeto?
 
-Entre em contato comigo *[aqui](https://github.com/lucas231090)* ou via e-mail *e-mail📨 souza.lucasj@gmail.com*
+Entre em contato comigo *[aqui](https://github.com/lucas231090)* ou via e-mail *📨 souza.lucasj@gmail.com*
 
 Salve esse repositório 💡
 
