@@ -1,7 +1,5 @@
-# Bem vindo, aqui você encontra:
-O Repositório oficial com toda a documentação, scripts e manuais da Arquitetura IoT para consulta pública - Doutorado de Lucas.
-
 # Agro-4.0-UFPR-Doutorado-Lucas
+Esse é o repositório público oficial com toda a documentação, scripts, manuais, figuras e etc. da Arquitetura IoT proposta na tese de Doutorado de Lucas José de Souza
 
 Um parágrafo da descrição do projeto vai aqui
 
