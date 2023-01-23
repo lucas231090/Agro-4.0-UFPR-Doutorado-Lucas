@@ -102,8 +102,8 @@ Em breve a versão final da TESE estará disponível AQUI🧑‍🎓.
 
 Para parcerias acadêmicas e de negócios entre em contato com os autores 👇
 
-* **Lucas J. Souza** - *lattes* - [curriculo lattes](http://lattes.cnpq.br/8057304667549945). *linkedin* - [linkedin](https://www.linkedin.com/in/souzalucasj/)
-* **Egon W. Wildauer** - 
+* **Lucas J. Souza** - *lattes* [clique aqui](http://lattes.cnpq.br/8057304667549945). *linkedin* - [clique aqui](https://www.linkedin.com/in/souzalucasj/). *e-mail*📨 souza.lucasj@ufpr.br
+* **Egon W. Wildauer** - *lattes* [clique aqui](http://lattes.cnpq.br/8057304667549945). *linkedin* - [clique aqui](https://www.linkedin.com/in/souzalucasj/)
 
 ## ✒️ Cola
 
