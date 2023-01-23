@@ -1,7 +1,7 @@
 # Seja bem vindo ao 🐔  Farm UFPR 4.0 - a Arquitetura IoT para granjas de frango de corte.
 Esse é o repositório público oficial - Agro-4.0-UFPR-Doutorado-Lucas da pesquisa intitulada:
 
-## Arquitetura IoT para pequenos produtores de frango de corte do Paraná: Proposta multiplataforma para gestão de dados
+## "Arquitetura IoT para pequenos produtores de frango de corte do Paraná Proposta multiplataforma para gestão de dados"
 
 #### 🎓 Projeto desenvolvido para a Tese de Lucas José de Souza aluno do PPGGI - Programa de Pós-Graduação em Gestão da Informação da Universidade Federal do Paraná sob a orientação do Professor Dr. Egon W. Wildauer.
 
