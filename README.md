@@ -28,7 +28,7 @@ OBS: Os arquivos são totalmente editáveis 😁
 
 ### 📋 Pré-requisitos
 Antes de começar verifique se você possui todos os pré requisitos para rodar a aplicação.
-Tenha instalado na máquina:
+
 ```
 -> NodeJS (obrigatório)
 -> Yarn (recomendável)
@@ -46,7 +46,7 @@ O manual de instalação encontra-se nesse repositório, mas todos os softwares 
 
 ### 🔧 Instalação
 
-Para rodar o back-end acesse o diretório 01 na pasta raiz e use o comando:
+Faça o download do repositório raiz e então... para o back-end acesse o diretório 01 na pasta source e use o comando:
 ```
 yarn dev
 ```
@@ -81,22 +81,31 @@ A aplicação é leve e exige pouco hardware, caso você tenha algum computador 
 * [JavaScript](https://www.javascript.com/) - Utilizada no desenvolvimento do back-end e front-end
 * [C](https://www.bell-labs.com/usr/dmr/www/chist.html) - Utilizada no desenvolvimento do Data Logger
 * [C++](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) - Utilizada no desenvolvimento do Data Logger
+* [R](https://www.r-project.org/) - Utilizada para criar uma parte da visualização dos dados e cálculos estatísticos
 
 ## 🛠️ Construído com
 
-* [JavaScript](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+* [NodeJS](https://nodejs.org/pt-br/) - Rodar JS no back-side
+* [ReactJS](https://pt-br.reactjs.org/) - Biblioteca JS para front-end web
+* [React Native](https://reactnative.dev/) - Biblioteca JS para front-end mobile
+* [ArduinoIDE](https://www.arduino.cc/) - IDE do desenvolvimento para microcontroladores
+* [MongoDB](https://www.mongodb.com/) - Banco de dados No-SQL
+* [Rstudio] (https://posit.co/downloads/) - IDE de desenvolvimento da programação utilizando Línguagem R
+* [Shiny](https://shiny.rstudio.com/tutorial/) - Biblioteca para Línguagem R de visualização dos dados
 
 ## 📌 Versão
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+O controle de versão é feito pelo próprio GitHub. Até o momento da defesa da tese ainda estamos na versão ALFA, testando a arquitetura, coletando e análisando dados.
+Em breve a versão final da TESE estará disponível AQUI🧑‍🎓. 
 
-## ✒️ Autores
+## 🤝 Parcerias
+
+Para parcerias acadêmicas e de negócios entre em contato com os autores 👇
+
+* **Lucas J. Souza** - *lattes* - [curriculo lattes](http://lattes.cnpq.br/8057304667549945). *linkedin* - [linkedin](https://www.linkedin.com/in/souzalucasj/)
+* **Egon W. Wildauer** - 
+
+## ✒️ Cola
 
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
@@ -118,4 +127,4 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](h
 
 
 ---
-🧑‍🎓Desenvolvido por [Lucas José de Souza](https://gist.github.com/lucas231090) 🤖
+🧑‍🎓Desenvolvido por [Lucas José de Souza](https://github.com/lucas231090) 🤖
