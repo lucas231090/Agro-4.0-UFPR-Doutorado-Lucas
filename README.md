@@ -28,15 +28,13 @@ OBS: Os arquivos são totalmente editáveis 😁
 
 ### 📋 Pré-requisitos
 Antes de começar verifique se você possui todos os pré requisitos para rodar a aplicação.
-
+Tenha instalado na máquina:
 ```
-Tenha instalado na máquina em que o projeto irá rodar:
-
 -> NodeJS (obrigatório)
--> Yarn (não obrigatório)
--> ReactJS (Obrigatório)
--> React Native (Obrigatório)
--> Expo (Obrigatório)
+-> Yarn (recomendável)
+-> ReactJS (obrigatório)
+-> React Native (obrigatório)
+-> Expo (obrigatório)
 -> Insomnia (recomendável)
 
 ```
