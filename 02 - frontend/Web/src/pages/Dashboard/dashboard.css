@@ -1,0 +1,146 @@
+.hello{
+    color: #000;
+    font-size: 50px;
+    margin-left: 25px;
+    display: flex;
+    align-items: baseline;
+}
+
+.poutry{
+    align-self: center;
+}
+
+
+.poutry2{
+    width: 60px;
+}
+
+.alinhar{
+    margin-top:4px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+.Acesso_Indcs{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25px;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.Acesso_Indcs span{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 900px;
+    height: 500px;
+    border-radius: 15px;
+    font-size: 40px;
+    text-align: center;  
+}
+
+.poutry1{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.Acesso_Indcs button{
+
+    background-color: #ffac5a;
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    color: #f0f0f0;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Acesso_Indcs button:hover{
+
+    background-color:#FF8F1F;
+    color:#fff;
+
+}
+
+.servicesText{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.welcome1{
+    font-size: 25px;
+    margin-top: 50px;
+
+}
+
+.varDay{
+    font-weight: bold;
+    color: rgb(100,158,255, 1);
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.people{
+    color: #81CF91;
+    align-items: baseline;
+}
+
+.ButtonsNavig{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ButtonsNavig button{
+    display: flex;
+    justify-content: space-around;
+    background-color: #81CF91;
+    border-radius: 18px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f0f0f0;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.ButtonsNavig button:hover{
+    background-color: #43B75A;
+    color: #fff;
+    
+}
+
+.funcionando{
+    color: #00cc00;
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+
+
+}
+
+.Naofuncionando{
+    color: rgb(220, 20, 60);
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+}
+
+.difItem{
+    font-size: 16px;
+    color:silver;
+    display: flex;
+    align-self: center;
+}
+
+.etapaProduct{
+    font-size: 20px;
+    color:royalblue
+
+}

@@ -1,0 +1,689 @@
+{
+    "openapi": "3.0.0",
+    "info":{
+      "title": "API de integração de dados IoT - FARM UFPR 4.0.",
+      "description": " Projeto de tese do PPGGI UFPR - Discente de doutorado Lucas José de Souza sob a orientação do Professor Dr. Egon Walter Wildauer. A API tem por objetivo a manipulação de dados advindos do sistema embarcado de coleta de dados e demais funcionalidades prototipado para a pesquisa. De forma a permitir a gestão das informações com a extração de dados e construção de conhecimento.",
+      "termsOfService":"http://localhost:3000/terms",
+      "contact":{
+        "email": "souza.lucasj@ufpr.br"
+      },
+      "version": "0.0.1 - alfa version"
+    },
+    "servers": [
+      {
+        "url": "https://apiagro-backend.herokuapp.com/",
+        "description": "API de produção"
+      },
+      {
+        "url": "http://localhost:3000/v1",
+        "description": "API de teste - RaspberryPI"
+      }
+    ],
+    "paths":{
+
+        "/session":{
+            "post":{
+              "summary":"validar um usuário para acessar a aplicação",
+              "description": "Rota para validação de usuário",
+              "tag": ["Session"],
+              "requestBody": {
+                "content": {
+                  "application/json":{
+                    "schema": {
+                      "$ref": "#/components/schemas/Session"
+                    },
+                    "examples":{
+                      "session":{
+                        "value":{
+                          "id": "345a7s6d5d426e",
+                          "name": "Lucas José",
+                          "e-mail": "lucas@gmail.com"
+                        }
+    
+                      }
+                    }
+                  }
+                }
+              },
+              "responses":{
+                "401":{
+                  "description": "Usuário não existe"
+                },
+                "400":{
+                  "description": "Usuário e/ou Senha incorreto(s)"
+                },
+                "200":{
+                  "description": "Token gerado com sucesso!"
+                  }
+                }
+              }
+            },
+  
+      "/users":{
+        "post":{
+          "summary":"cadastro de usuários da aplicação",
+          "description": "Rota para o cadastro de usuários do sistema",
+          "tag": ["Users"],
+          "requestBody": {
+            "content": {
+              "application/json":{
+                "schema": {
+                  "$ref": "#/components/schemas/Users"
+                },
+                "examples":{
+                  "users":{
+                    "value":{
+                      "name": "Lucas José",
+                      "e-mail": "lucas@gmail.com",
+                      "createdAt": "05/12/2022 08:30"
+                    }
+  
+                  }
+                }
+              }
+            }
+          },
+          "responses":{
+            "401":{
+              "description": "Falha na validação"
+            },
+            "400":{
+              "description": "Usuário já cadastrado"
+            },
+            "200":{
+              "description": "Usuário cadastrado com com sucesso!"
+              }
+            }
+          },
+          "get":{
+            "summary":"Listar usuários",
+            "description": "Rota para a listagem dos usuários cadastrados na plataforma",
+            "tag": ["Users"],
+            "responses":{
+              "401":{
+                "description": "Não autorizado"
+              },
+              "400":{
+                "description": "Falha ao realizar a busca! Contate o administrador ou redefina os parâmetros."
+              },
+              "200":{
+                "description": "Busca realizada com sucesso"
+                }
+              }
+            }
+        },
+   
+      "/farms":{
+        "post":{
+          "summary":"Cadastro dos produtores",
+          "description": "Rota para o usuário cadastrar sua fazenda e incluir demais informações relevantes",
+          "tag": ["Farms"],
+          "requestBody": {
+            "content": {
+              "application/json":{
+                "schema": {
+                  "$ref": "#/components/schemas/Farm"
+                },
+                "examples":{
+                  "farms":{
+                    "value":{
+                      "user": "Professor Egon",
+                      "fazenda": "Fazenda 4.0 UFPR - Palotina",
+                      "cidade": "Palotina-PR",
+                      "responsavel": "Professor Mauricio",
+                      "cultivos": "Frango de corte",
+                      "bio": "Fazenda criada em 2022 para o desenvolvimento de sistemas IoT de baixo custo",
+                      "avatar_ur": "colocar a URL do avatar do usuário",
+                      "coordinates": [-53.8432086, -24.2961452]
+                    }
+  
+                  }
+                }
+              }
+            }
+          },
+          "responses":{
+            "401":{
+              "description": "Usuário não autorizado"
+            },
+            "400":{
+              "description": "Essa fazenda já está cadastrada"
+            },
+            "200":{
+              "description": "Fazenda Cadastrada com Sucesso"
+              }
+            }
+          },
+          
+          "get":{
+            "summary":"Listagem das fazendas",
+            "description": "Rota para listar todas as fazendas cadastradas por produtores",
+            "tag": ["Farms"],
+            "responses":{
+              "401":{
+                "description": "Usuário não autorizado"
+              },
+              "400":{
+                "description": "Falha ao realizar a busca! Contate o administrador ou redefina os parâmetros."
+              },
+              "200":{
+                "description": "Busca realizada com sucesso!"
+                }
+              }
+            },
+            "put":{
+                "summary":"Alteração de dados",
+                "description": "Rota para editar os dados das fazendas cadastradas",
+                "tag": ["Farms"],
+                "requestBody": {
+                  "content": {
+                    "application/json":{
+                      "schema": {
+                        "$ref": "#/components/schemas/Farm"
+                      },
+                      "examples":{
+                        "farms":{
+                          "value":{
+                            "user": "Professor Egon",
+                            "fazenda": "Fazenda 4.0 UFPR - Palotina",
+                            "cidade": "Palotina-PR",
+                            "responsavel": "Professor Mauricio",
+                            "cultivos": "Frango de corte",
+                            "bio": "Alteração da bio realizada com sucesso (teste)",
+                            "avatar_ur": "colocar a URL do avatar do usuário",
+                            "coordinates": [-53.8432086, -24.2961452]
+                          }
+        
+                        }
+                      }
+                    }
+                  }
+                },
+                "responses":{
+                  "401":{
+                    "description": "Usuário não autorizado"
+                  },
+                  "400":{
+                    "description": "Não foi possível realizar a alteração."
+                  },
+                  "200":{
+                    "description": "Dados atualizados com sucesso."
+                    }
+                  }
+                },
+                "delete":{
+                    "summary":"Exclusão de fazendas",
+                    "description": "Rota para excluir as fazendas",
+                    "tag": ["Farms"],
+                    "requestBody": {
+                      "content": {
+                        "application/json":{
+                          "schema": {
+                            "$ref": "#/components/schemas/Farm"
+                          },
+                          "examples":{
+                            "farms":{
+                              "value":{
+                                "user": "Professor Egon",
+                                "fazenda": "Fazenda 4.0 UFPR - Palotina",
+                                "cidade": "Palotina-PR",
+                                "responsavel": "Professor Mauricio",
+                                "cultivos": "Frango de corte",
+                                "bio": "Fazenda criada em 2022 para o desenvolvimento de sistemas IoT de baixo custo",
+                                "avatar_ur": "colocar a URL do avatar do usuário",
+                                "coordinates": [-53.8432086, -24.2961452]
+                              }
+            
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "responses":{
+                      "401":{
+                        "description": "Usuário não autorizado"
+                      },
+                      "400":{
+                        "description": "Não foi possível excluir essa fazenda."
+                      },
+                      "200":{
+                        "description": "Exclusão realizada com sucesso!"
+                        }
+                      }
+                    }
+        },
+  
+      "/sensores":{
+          "post":{
+            "summary":"Cadastro dos sensores IoT",
+            "description": "Rota para o usuário cadastrar os sensores e suas especificações",
+            "tag": ["Sensors"],
+            "requestBody": {
+              "content": {
+                "application/json":{
+                  "schema": {
+                    "$ref": "#/components/schemas/Sensor"
+                  },
+                  "examples":{
+                    "sensors":{
+                      "value":{
+                        "user_id": "bw23a6751326a6516537a65135237",
+                        "timestamp": "10/23/2022 17:45",
+                        "tipoMedida1": "Temperatura",
+                        "tipoMedida2": "Umidade ambiente",
+                        "unidadeMedida1": "ºC",
+                        "unidadeMedida2": "%",
+                        "modeloSensor": "Adafruit bmht11",
+                        "valor1": 23,
+                        "valor2": 74,
+                        "ipArduino": "192.168.1.1"
+                      }
+  
+                    }
+                  }
+                }
+              }
+            },
+            "responses":{
+              "401":{
+                "description": "Usuário não autorizado"
+              },
+              "400":{
+                "description": "Esse sensor já está cadastrado"
+              },
+              "200":{
+                "description": "Sensor cadastrado com sucesso!"
+                }
+              }
+            },
+            "get":{
+                "summary":"Busca de dados dos sensores",
+                "description": "Rota para filtrar os dados dos sensores com diversos parâmetros",
+                "tag": ["Sensors"],
+                "requestBody": {
+                  "content": {
+                    "application/json":{
+                      "schema": {
+                        "$ref": "#/components/schemas/Sensor"
+                      },
+                      "examples":{
+                        "sensors":{
+                          "value":[
+                            {
+                            "user_id": "bw23a6751326a6516537a65135237",
+                            "timestamp": "10/23/2022 17:45",
+                            "tipoMedida1": "Temperatura",
+                            "tipoMedida2": "Umidade ambiente",
+                            "unidadeMedida1": "ºC",
+                            "unidadeMedida2": "%",
+                            "modeloSensor": "Adafruit bmht11",
+                            "valor1": 23,
+                            "valor2": 74,
+                            "ipArduino": "192.168.1.1"
+                          },
+                          {
+                            "user_id": "bw23a6751326a6516537a65135237",
+                            "timestamp": "11/23/2022 17:45",
+                            "tipoMedida1": "Temperatura",
+                            "tipoMedida2": "Umidade ambiente",
+                            "unidadeMedida1": "ºC",
+                            "unidadeMedida2": "%",
+                            "modeloSensor": "Adafruit bmht11",
+                            "valor1": 21,
+                            "valor2": 87,
+                            "ipArduino": "192.168.1.1"
+                          },
+                          {
+                            "user_id": "bw23a6751326a6516537a65135237",
+                            "timestamp": "12/23/2022 17:45",
+                            "tipoMedida1": "Gás Amonia",
+                            "unidadeMedida1": "ppm",
+                            "modeloSensor": "Adafruit mq-33",
+                            "valor1": 199,
+                            "ipArduino": "192.168.25.10"
+                          }
+                        ] 
+                        }
+                      }
+                    }
+                  }
+                },
+                "responses":{
+                  "401":{
+                    "description": "Usuário não autorizado"
+                  },
+                  "400":{
+                    "description": "Falha ao realizar a busca! Contate o administrador ou redefina os parâmetros."
+                  },
+                  "200":{
+                    "description": "Busca realizada com sucesso!"
+                    }
+                  }
+                }
+          },
+  
+      "/actuator":{
+            "post":{
+              "summary":"cadastro dos atuadores IoT",
+              "description": "Rota para o usuário cadastrar os atuadores e suas específicações",
+              "tag": ["Actuators"],
+              "requestBody": {
+                "content": {
+                  "application/json":{
+                    "schema": {
+                      "$ref": "#/components/schemas/Actuator"
+                    },
+                    "examples":{
+                      "actuators":{
+                        "value":{
+                          "user_id": "b32yt2f3y12t123tf2",
+                          "actuator_name": "Motor Weg - MD13E03",
+                          "timestamp": "11/11/2022 11:35",
+                          "state": true
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "responses":{
+                "401":{
+                  "description": "Usuário não autorizado"
+                },
+                "400":{
+                  "description": "Esse atuador já está cadastrado"
+                },
+                "200":{
+                  "description": "Atuador cadastrado com sucesso!"
+                  }
+                }
+              },
+              "get":{
+                "summary":"Busca de dados dos atuadores",
+                "description": "Rota para filtrar os dados dos atuadores cadastrados e seus estados",
+                "tag": ["Actuators"],
+                "responses":{
+                  "401":{
+                    "description": "Usuário não autorizado"
+                  },
+                  "400":{
+                    "description": "Falha ao realizar a busca! Contate o administrador ou redefina os parâmetros."
+                  },
+                  "200":{
+                    "description": "Busca realizada com sucesso!"
+                    }
+                  }
+                },
+                "put":{
+                    "summary":"Alteração de dados",
+                    "description": "Rota para editar o estado dos atuadores cadastrados",
+                    "tag": ["Actuators"],
+                    "requestBody": {
+                      "content": {
+                        "application/json":{
+                          "schema": {
+                            "$ref": "#/components/schemas/Farm"
+                          },
+                          "examples":{
+                            "actuators":{
+                              "value":[
+                                {
+                                    "user_id": "b32yt2f3y12t123tf2",
+                                    "actuator_name": "Teste de mudança de nome",
+                                    "timestamp": "18/12/2022 11:35",
+                                    "state": true
+                                  }
+                            ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "responses":{
+                      "401":{
+                        "description": "Usuário não autorizado"
+                      },
+                      "400":{
+                        "description": "Não foi possível realizar a alteração."
+                      },
+                      "200":{
+                        "description": "Dados atualizados com sucesso."
+                        }
+                      }
+                    }
+            },
+
+            "/helps":{
+                "post":{
+                  "summary":"Cadastro chamados do usuário para o especialista",
+                  "description": "Rota para o usuário cadastrar chamados",
+                  "tag": ["Helps"],
+                  "requestBody": {
+                    "content": {
+                      "application/json":{
+                        "schema": {
+                          "$ref": "#/components/schemas/Help"
+                        },
+                        "examples":{
+                          "helps":{
+                            "value":{
+                              "user_id": "bb2Bc1g241b1vb21b",
+                              "assuntoProblema": "Problema sensor",
+                              "descricaoProblema": "Houve um alagamento devido as chuvas do dia 01/10/2022 o qual ocasionou a falha no sensor dht11"
+                              }
+      
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "responses":{
+                    "401":{
+                      "description": "Usuário não autorizado"
+                    },
+                    "200":{
+                      "description": "Chamado cadastrado com sucesso!"
+                      }
+                    }
+                  },
+                  "get":{
+                    "summary":"Listar chamados",
+                    "description": "Rota para a listagem de chamados registrados",
+                    "tag": ["Helps"],
+                    "responses":{
+                      "401":{
+                        "description": "Usuário não autorizado"
+                      },
+                      "400":{
+                        "description": "Falha ao realizar a busca! Contate o administrador ou redefina os parâmetros."
+                      },
+                      "200":{
+                        "description": "Busca realizada com sucesso"                       
+                      }
+                      }
+                    }
+                },
+                "/notification":{
+                    "post":{
+                      "summary":"Envio de notificações para o aplicativo",
+                      "description": "Rota para o cadastro e envio de notificação para os usuários",
+                      "tag": ["Notification"],
+                      "requestBody": {
+                        "content": {
+                          "application/json":{
+                            "schema": {
+                              "$ref": "#/components/schemas/Notification"
+                            },
+                            "examples":{
+                              "notification":{
+                                "value":{
+                                  "user_id": "bb2Bc1g241b1vb21b",
+                                  "content": "A tendência é do NH3 subir os níveis nos próximos 30 minutos, a ventição foi automaticamente acionada. Para mais informações acesse o Aplicativo"
+                                  }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "responses":{
+                        "401":{
+                          "description": "Usuário não autorizado"
+                        },
+                        "200":{
+                          "description": "Notificação enviada com sucesso!"
+                          }
+                        }
+                      },
+                      "get":{
+                        "summary":"Lista de notificações",
+                        "description": "Rota para listar o histórico de notificações enviadas aos usuários",
+                        "tag": ["Notification"],                       
+                        "responses":{
+                          "401":{
+                            "description": "Usuário não autorizado"
+                          },
+                          "200":{
+                            "description": "Notificação enviada com sucesso!"
+                            }
+                          }
+                        }
+                    }
+      },
+  
+    "components":{
+      "schemas":{
+        "Users": {
+          "type": "object",
+          "properties": {
+            "name":{
+              "type":"string"
+            },
+            "e-mail":{
+              "type": "string"
+            },
+            "createdAt":{
+              "type": "timestamp"
+            }
+          }
+        },
+        "Session": {
+          "type": "object",
+          "properties": {
+            "id":{
+              "type":"string"
+            },
+            "name":{
+              "type": "string"
+            },
+            "e-mail":{
+              "type": "string"
+            }
+          }
+        },
+        "Farm": {
+          "type": "object",
+          "properties": {
+            "user":{
+              "type":"string"
+            },
+            "fazenda":{
+              "type": "string"
+            },
+            "cidade":{
+              "type": "string"
+            },
+            "responsavel":{
+              "type": "string"
+            },
+            "cultivos":{
+              "type": ["string"]
+            },
+            "bio":{
+              "type":"string"
+            },
+            "avatar_url":{
+              "type": "string"
+            },
+            "coordinates":{
+              "type": "array"
+            }
+          }
+        },
+        "Sensor": {
+          "type": "object",
+          "properties": {
+            "user_id":{
+              "type":"string"
+            },
+            "timestamp":{
+              "type": "timestamp"
+            },
+            "tipoMedida1":{
+              "type": "string"
+            },
+            "tipoMedida2":{
+              "type": "string"
+            },
+            "unidadeMedida1":{
+              "type": "string"
+            },
+            "unidadeMedida2":{
+              "type":"string"
+            },
+            "modeloSensor":{
+              "type": "string"
+            },
+            "valor1":{
+              "type": "number"
+            },
+            "valor2":{
+              "type":"number"
+            }
+          }
+        },
+        "Actuator": {
+          "type": "object",
+          "properties": {
+            "user":{
+              "type":"string"
+            },
+            "actuator_name":{
+              "type": "string"
+            },
+            "timestamp":{
+              "type": "timestamp"
+            },
+            "state":{
+              "type": "boolean"
+            }
+          }
+        },
+        "Help": {
+          "type": "object",
+          "properties": {
+            "user":{
+              "type":"string"
+            },
+            "assuntoProblema":{
+              "type": "string"
+            },
+            "descricaoProblema":{
+              "type": "string"
+            }
+          }
+        },
+        "Notification": {
+          "type": "object",
+          "properties": {
+            "user":{
+              "type":"string"
+            },
+            "content":{
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+  
