@@ -36,6 +36,7 @@ Tenha instalado na máquina:
 -> React Native (obrigatório)
 -> Expo (obrigatório)
 -> Insomnia (recomendável)
+-> ArduinoIDE (obrigatório)
 
 ```
 
@@ -44,7 +45,7 @@ O manual de instalação encontra-se nesse repositório, mas todos os softwares 
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Para rodar o projeto .
 
 Diga como essa etapa será:
 
