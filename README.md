@@ -37,6 +37,7 @@ Tenha instalado na máquina:
 -> Expo (obrigatório)
 -> Insomnia (recomendável)
 -> ArduinoIDE (obrigatório)
+-> VSCODE (recomendável)
 
 ```
 
@@ -45,51 +46,45 @@ O manual de instalação encontra-se nesse repositório, mas todos os softwares 
 
 ### 🔧 Instalação
 
-Para rodar o projeto .
-
-Diga como essa etapa será:
-
+Para rodar o back-end acesse o diretório 01 na pasta raiz e use o comando:
 ```
-Dar exemplos
+yarn dev
 ```
 
-E repita:
+ou
 
 ```
-Até finalizar
+yarn start
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
+Para rodar o front WEB ou MOBILE acesse o diretório 02 na pasta source de qual deseja e use o comando:
 
 ```
-Dar exemplos
+yarn start
 ```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
+No caso do front MOBILE você também pode rodar a aplicação utilizando o comando:
 
 ```
-Dar exemplos
+expo start
 ```
 
-## 📦 Implantação
+PS: Para rodar a aplicação mobile tenha um smartphone em mãos com o app EXPO instalado, então basta ler o QR code e aguardar a aplicação rodar.
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+## 📦 Dica de Implantação
+
+Caso queira rodar o sistema localmente sem precisar de uma hospedagem na internet (geralmente precisamos pagar por isso 🤑) você pode utilizar um notebook ou um Raspberry PI (suportado na versão 2 ou superior).
+A aplicação é leve e exige pouco hardware, caso você tenha algum computador (desktop ou portátil) que não utiliza mais use-o como servidor interno.
+É seguro e leve.😎
+
+## 💻 Línguagens de Programação utilizadas
+
+* [JavaScript](https://www.javascript.com/) - Utilizada no desenvolvimento do back-end e front-end
+* [C](https://www.bell-labs.com/usr/dmr/www/chist.html) - Utilizada no desenvolvimento do Data Logger
+* [C++](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) - Utilizada no desenvolvimento do Data Logger
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
+* [JavaScript](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
 * [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
 
@@ -123,4 +118,4 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](h
 
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+🧑‍🎓Desenvolvido por [Lucas José de Souza](https://gist.github.com/lucas231090) 🤖
