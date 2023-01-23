@@ -1,9 +1,10 @@
-# Agro-4.0-UFPR-Doutorado-Lucas 
-## Esse é o repositório público oficial.
+# Esse é o repositório público oficial - Agro-4.0-UFPR-Doutorado-Lucas 
+
 ##Projeto desenvolvido para a Tese do doutorando Lucas José de Souza do PPGGI - 
 Programa de Pós-Graduação em Gestão da Informação da Universidade Federal do Paraná
 sob a orientação do Professor Dr. Egon W. Wildauer.
-### Bem vindo ao Farm UFPR 4.0 - a Arquitetura IoT para granjas de frango de corte.
+
+# Seja bem vindo ao Farm UFPR 4.0 - a Arquitetura IoT para granjas de frango de corte.
 
 O projeto possui 3 pastas principais:
 
