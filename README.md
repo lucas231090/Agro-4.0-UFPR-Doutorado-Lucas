@@ -104,28 +104,25 @@ Para parcerias acadêmicas e de negócios entre em contato com os autores 👇
 
 * **Msc. Lucas J. Souza, autor** - *lattes* [clique aqui](http://lattes.cnpq.br/8057304667549945). *linkedin* - [clique aqui](https://www.linkedin.com/in/souzalucasj/). *e-mail*📨 souza.lucasj@ufpr.br
 * **Dr. Egon W. Wildauer, orientador** - *lattes* [clique aqui](http://lattes.cnpq.br/8057304667549945). *linkedin* - [clique aqui](https://www.linkedin.com/in/egon-wildauer-7731b313)
-* * **Dr. André Bellin Mariano, co-orientador** - *lattes* [clique aqui](http://lattes.cnpq.br/7761038914576062).
+* **Dr. André Bellin Mariano, co-orientador** - *lattes* [clique aqui](http://lattes.cnpq.br/7761038914576062).
 
-## ✒️ Cola
+## ✒️ Quer colaborar com o projeto?
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+Entre em contato comigo *[aqui](souza.lucasj@ufpr.br)* ou *[aqui](souza.lucasj@gmail.com)*
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+Salve esse repositório 💡
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+O projeto é público, mas está sob minha licença, então fique a vontade para copiar, alterar e publicar (só não esqueça de me citar 😉).
 
 ## 🙌 Agradecimentos
 
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
+* Primeiramente a Deus, que é o princípio e o fim de todas as coisas;
+* Ao meu querido amigo e professor Egon W. Wildauer;
+* A Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) que financiou e viabilizou a pesquisa com a bolsa DS de nível Doutorado;
+* A todos os colegas que estiveram comigo nesse trajeto, mesmo que sendo só para tomar um café ☕.
 
 
 ---
-🧑‍🎓Desenvolvido por [Lucas José de Souza](https://github.com/lucas231090) 🤖
+🧑‍🎓Desenvolvido e mantido por [Lucas José de Souza](https://github.com/lucas231090) 🤖
