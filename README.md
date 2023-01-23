@@ -26,7 +26,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 Caso queira colocar o Farm UFPR 4.0 em uma hospedagem na internet basta seguir a documentação do provedor contratado, pois esse projeto está pronto para isso.
 OBS: Os arquivos são totalmente editáveis 😁
 
-Consulte **[Agradecimentos](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+Consulte **[Agradecimentos](#-agradecimentos)**para saber como implantar o projeto.
 
 ### 📋 Pré-requisitos
 
