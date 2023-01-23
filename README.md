@@ -1,5 +1,5 @@
-# Seja bem vindo ao Farm UFPR 4.0 - a Arquitetura IoT para granjas de frango de corte.
-### Esse é o repositório público oficial -🐔 Agro-4.0-UFPR-Doutorado-Lucas
+# Seja bem vindo ao 🐔  Farm UFPR 4.0 - a Arquitetura IoT para granjas de frango de corte.
+### Esse é o repositório público oficial - Agro-4.0-UFPR-Doutorado-Lucas
 
 ## 🎓 Projeto desenvolvido para a Tese de Lucas José de Souza aluno do PPGGI - Programa de Pós-Graduação em Gestão da Informação da Universidade Federal do Paraná sob a orientação do Professor Dr. Egon W. Wildauer.
 
@@ -23,9 +23,10 @@ O projeto possui 3 repositórios principais:
 ## 🚀 Vamos começar
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local (localhost) para fins de desenvolvimento e testes.
-Caso queira colocar em produção em uma hospedagem na internet basta seguir a documentação do provedor contratado, pois esse projeto está pronto para isso.
+Caso queira colocar o Farm UFPR 4.0 em uma hospedagem na internet basta seguir a documentação do provedor contratado, pois esse projeto está pronto para isso.
+OBS: Os arquivos são totalmente editáveis 😁
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+Consulte **[Agradecimentos](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
 ### 📋 Pré-requisitos
 
@@ -106,7 +107,7 @@ Você também pode ver a lista de todos os [colaboradores](https://github.com/us
 
 Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
 
-## 🎁 Expressões de gratidão
+## 🙌 Agradecimentos
 
 * Conte a outras pessoas sobre este projeto 📢;
 * Convide alguém da equipe para uma cerveja 🍺;
