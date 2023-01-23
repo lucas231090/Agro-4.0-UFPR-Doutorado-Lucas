@@ -1,10 +1,9 @@
-# Esse é o repositório público oficial -🐔 Agro-4.0-UFPR-Doutorado-Lucas 
+# Seja bem vindo ao Farm UFPR 4.0 - a Arquitetura IoT para granjas de frango de corte.
+### Esse é o repositório público oficial -🐔 Agro-4.0-UFPR-Doutorado-Lucas
 
 ## 🎓 Projeto desenvolvido para a Tese de Lucas José de Souza aluno do PPGGI - Programa de Pós-Graduação em Gestão da Informação da Universidade Federal do Paraná sob a orientação do Professor Dr. Egon W. Wildauer.
 
-### Seja bem vindo ao Farm UFPR 4.0 - a Arquitetura IoT para granjas de frango de corte.
-
-O projeto possui 3 pastas principais:
+O projeto possui 3 repositórios principais:
 
 01- backend - Aqui se encontram os scripts de toda a configuração do servidor,
 		      as rotas da API, questão de gestão de acesso, lógicas e regras
