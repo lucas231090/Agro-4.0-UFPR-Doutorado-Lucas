@@ -1,11 +1,31 @@
 # Agro-4.0-UFPR-Doutorado-Lucas
-Esse é o repositório público oficial com toda a documentação, scripts, manuais, figuras e etc. da Arquitetura IoT proposta na tese de Doutorado de Lucas José de Souza
+Esse é o repositório público oficial.
 
-Um parágrafo da descrição do projeto vai aqui
+Bem vindo ao Farm UFPR 4.0 - a Arquitetura IoT para granjas de frango de corte.
 
-## 🚀 Começando
+O projeto possui 3 pastas principais:
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+01- backend - Aqui se encontram os scripts de toda a configuração do servidor,
+		      as rotas da API, questão de gestão de acesso, lógicas e regras
+			  do negócio.Além disso, o arquivo: rotas-api-insomnia.JSON possui
+			  um backup das rotas para testar utilizando o INSOMNIA.
+
+02 - frontend - Nessa pasta estão os repositórios Web e Mobile da aplicação. Para 
+				rodar a aplicação mobile é necessário utilizar o aplicativo EXPO no
+				seu celular.
+
+03 - dataLogger -  Todos os algoritmos, esquemas elétricos e manual de montagem do
+				   data logger se encontram no repositório 03. Dentro dessa pasta
+				   tem um outro arquivo para leitura que dá mais detalhes.
+
+Projeto desenvolvido para a Tese do doutorando Lucas José de Souza do PPGGI - 
+Programa de Pós-Graduação em Gestão da Informação da Universidade Federal do Paraná
+sob a orientação do Professor Dr. Egon W. Wildauer.
+
+## 🚀 Vamos começar
+
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local (localhost) para fins de desenvolvimento e testes.
+Caso queira colocar em produção em uma hospedagem na internet basta seguir a documentação do provedor contratado, pois esse projeto está pronto para isso.
 
 Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
