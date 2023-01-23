@@ -96,14 +96,15 @@ A aplicação é leve e exige pouco hardware, caso você tenha algum computador 
 ## 📌 Versão
 
 O controle de versão é feito pelo próprio GitHub. Até o momento da defesa da tese ainda estamos na versão ALFA, testando a arquitetura, coletando e análisando dados.
-Em breve a versão final da TESE estará disponível AQUI🧑‍🎓. 
+Em breve a versão final da TESE estará disponível *[aqui](https://bibliotecas.ufpr.br/)* 🧑‍🎓. 
 
 ## 🤝 Parcerias
 
 Para parcerias acadêmicas e de negócios entre em contato com os autores 👇
 
-* **Lucas J. Souza, autor** - *lattes* [clique aqui](http://lattes.cnpq.br/8057304667549945). *linkedin* - [clique aqui](https://www.linkedin.com/in/souzalucasj/). *e-mail*📨 souza.lucasj@ufpr.br
-* **Egon W. Wildauer, co-autor** - *lattes* [clique aqui](http://lattes.cnpq.br/8057304667549945). *linkedin* - [clique aqui](https://www.linkedin.com/in/souzalucasj/)
+* **Msc. Lucas J. Souza, autor** - *lattes* [clique aqui](http://lattes.cnpq.br/8057304667549945). *linkedin* - [clique aqui](https://www.linkedin.com/in/souzalucasj/). *e-mail*📨 souza.lucasj@ufpr.br
+* **Dr. Egon W. Wildauer, orientador** - *lattes* [clique aqui](http://lattes.cnpq.br/8057304667549945). *linkedin* - [clique aqui](https://www.linkedin.com/in/egon-wildauer-7731b313)
+* * **Dr. André Bellin Mariano, co-orientador** - *lattes* [clique aqui](http://lattes.cnpq.br/7761038914576062).
 
 ## ✒️ Cola
 
