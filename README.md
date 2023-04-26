@@ -20,7 +20,9 @@ O projeto possui 3 repositórios principais:
 				   data logger se encontram no repositório 03. Dentro dessa pasta
 				   tem um outro arquivo para leitura que dá mais detalhes.
 
-
+| LINK | DESCRIÇÃO |
+| ----------- | ----------- |
+| https://api-agro-render.onrender.com/ | API do FARM UFPR 4.0 |
 
 ## 🚀 Vamos começar
 
